@@ -1,11 +1,10 @@
 package com.han.test.demo.utils;
 
-import com.han.test.demo.common.Constants;
-import com.han.test.demo.common.encrypt.RSAHelper;
+import com.han.test.demo.commons.common.Constants;
+import com.han.test.demo.commons.encrypt.RSAHelper;
 import com.han.test.demo.domain.model.MessageReq;
 import com.han.test.demo.domain.model.MessageResp;
 import com.thoughtworks.xstream.XStream;
-import java.lang.reflect.InvocationTargetException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanUtils;

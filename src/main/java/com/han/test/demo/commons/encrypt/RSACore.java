@@ -1,4 +1,4 @@
-package com.han.test.demo.common.encrypt;
+package com.han.test.demo.commons.encrypt;
 
 import java.io.ByteArrayOutputStream;
 import java.security.Key;

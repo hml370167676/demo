@@ -1,7 +1,7 @@
 package com.han.test.demo.domain.builder;
 
-import com.han.test.demo.common.Constants;
-import com.han.test.demo.common.encrypt.RSAHelper;
+import com.han.test.demo.commons.common.Constants;
+import com.han.test.demo.commons.encrypt.RSAHelper;
 import com.han.test.demo.domain.model.MessageReq;
 import com.han.test.demo.utils.DateUtils;
 import java.util.Random;

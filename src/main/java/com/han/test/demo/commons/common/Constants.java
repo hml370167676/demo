@@ -1,4 +1,4 @@
-package com.han.test.demo.common;
+package com.han.test.demo.commons.common;
 
 /**
  * <p>Description:</p>

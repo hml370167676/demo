@@ -1,8 +1,5 @@
 package com.han.test.demo.domain.model;
 
-import com.han.test.demo.common.Constants;
-import com.han.test.demo.common.encrypt.RSAHelper;
-import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import java.io.Serializable;
 import javax.xml.bind.annotation.XmlElement;

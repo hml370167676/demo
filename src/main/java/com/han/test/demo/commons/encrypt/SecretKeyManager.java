@@ -1,4 +1,4 @@
-package com.han.test.demo.common.encrypt;
+package com.han.test.demo.commons.encrypt;
 
 import java.util.Collections;
 import java.util.HashMap;

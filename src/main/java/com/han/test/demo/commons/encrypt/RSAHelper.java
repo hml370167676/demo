@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.han.test.demo.common.encrypt;
+package com.han.test.demo.commons.encrypt;
 
 
 import org.apache.commons.lang3.StringUtils;

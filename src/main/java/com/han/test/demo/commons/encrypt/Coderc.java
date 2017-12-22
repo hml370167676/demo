@@ -7,7 +7,7 @@
  * @since 年6月4日 下午2:
  * @version V1.0   
  */
-package com.han.test.demo.common.encrypt;
+package com.han.test.demo.commons.encrypt;
 
 import java.security.MessageDigest;
 import javax.crypto.KeyGenerator;
