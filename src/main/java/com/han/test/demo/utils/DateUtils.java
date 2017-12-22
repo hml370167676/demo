@@ -2,7 +2,9 @@ package com.han.test.demo.utils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.UUID;
@@ -67,6 +69,13 @@ public class DateUtils {
   public static int getCurrentDay() {
     LocalDateTime dt = LocalDateTime.now();
     return dt.getDayOfMonth();
+  }
+
+  public static String getCurrentDayByPattern(String pattern) {
+    LocalDateTime dt = LocalDateTime.now();
+    DateTimeFormatter dtf = DateTimeFormatter.ofPattern(pattern);
+    LocalDateTime day = LocalDateTime.parse(dt.toString(), dtf);
+    return day.toString();
   }
 
   public static Date getDateByPattern(String date, String pattern) {

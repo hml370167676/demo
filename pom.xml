@@ -93,12 +93,17 @@
 			<version>20.0</version>
 		</dependency>
 		<dependency>
+			<groupId>com.thoughtworks.xstream</groupId>
+			<artifactId>xstream</artifactId>
+			<version>1.4.10</version>
+		</dependency>
+		<!--<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>dubbo</artifactId>
 			<version>2.5.3</version>
 			<exclusions>
 				<exclusion>
-					<!-- 排除传递spring依赖 -->
+					&lt;!&ndash; 排除传递spring依赖 &ndash;&gt;
 					<artifactId>spring</artifactId>
 					<groupId>org.springframework</groupId>
 				</exclusion>
@@ -113,7 +118,7 @@
 			<groupId>com.101tec</groupId>
 			<artifactId>zkclient</artifactId>
 			<version>0.10</version>
-		</dependency>
+		</dependency>-->
 		<!--apache commons utils start-->
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
